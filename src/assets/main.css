@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: local("ColfaxAI"), url("/fonts/ColfaxAIRegular.otf");
+}
+@font-face {
+  font-family: "ColfaxAIBold";
+  src: local("ColfaxAIBold"), url("/fonts/ColfaxAIBold.otf");
+}
+body::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  display: none; /* Safari and Chrome */
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: #23242c;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7f839a;
+  border-radius: 6px;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#app,
+.content {
+  margin: 0;
+  background: #343541;
+  height: 100%;
+  color: white;
+  font-family: ColfaxAI, helvetica, sans-serif;
+}
+.content,
+input,
+textarea {
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none !important;
+}

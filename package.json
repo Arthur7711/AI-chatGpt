@@ -1,0 +1,27 @@
+{
+  "name": "chatgpt-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "gpt-tokenizer": "^2.1.1",
+    "highlight.js": "^11.7.0",
+    "markdown-it": "^13.0.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.0.13",
+    "vue3-cookies": "^1.0.6",
+    "vuetify": "^3.1.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4"
+  }
+}
